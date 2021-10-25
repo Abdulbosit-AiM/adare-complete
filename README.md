@@ -1,2 +1,2 @@
 # adare-complete
-Complete Restaurant Website
+Responsive Complete Restaurant Website
