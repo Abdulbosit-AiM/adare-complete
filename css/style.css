@@ -29,7 +29,7 @@ nav {
     height: 40px;
     background-color: rgba(0, 0, 0, 0.338);
     text-align: center;
-    padding: 14px 0;
+    padding: 12px 0;
 }
 a {
     color: white;
@@ -79,7 +79,7 @@ footer p {
     min-height: 1000px;
 }
 
-.menu div {
+.menu .dish {
     width: 300px;
     height: 170px;
     background-color: #ff9101;   
@@ -88,7 +88,7 @@ footer p {
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
     transition: all .3s ease-out;
 }
-.menu div:hover {
+.menu .dish:hover {
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.6);
 }
 .food-name {
@@ -101,12 +101,17 @@ footer p {
     font-size: 1.125rem;
     transition: all .3s ease-out;
 }
-.menu div:hover .food-name {
+.menu .dish:hover .food-name {
     visibility: visible;
     margin-top: 0px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.source {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 .photo1 {
     background-image: url(../images/1.jpeg);
@@ -145,3 +150,12 @@ footer p {
     background-image: url(../images/12.jpeg);
 }
 
+/* Order Online Page */
+
+script {
+    margin: 0 auto;
+}
+
+.order-online {
+    margin-bottom: 250px;
+}
