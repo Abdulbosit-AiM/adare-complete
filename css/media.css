@@ -1,0 +1,55 @@
+@media only screen and (max-width: 480px){
+    body {
+        background-image: url(../images/background-mobile-restaurant.jpg);  
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    header {
+        margin-top: -10px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+    header img {
+        width: 3rem;
+    }
+    nav {
+        height: 7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    nav a {
+        display: block;
+        margin: 1px 0;
+    }
+    main {
+        padding-top: 20px;
+        height: 20rem;
+    }
+    p {
+        padding: 0 5%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 250%;
+    }
+
+    section, iframe {
+        display: block;
+        width: 100%;
+        height: 60%;
+    }
+    footer p {
+        padding: 50px 50px 25px 50px;
+    }
+}
