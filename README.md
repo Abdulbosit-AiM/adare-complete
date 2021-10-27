@@ -1,2 +1,3 @@
 # adare-complete
-Responsive Complete Restaurant Website
+## Responsive Complete Restaurant Website
+### In the process of development
