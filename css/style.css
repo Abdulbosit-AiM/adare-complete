@@ -160,10 +160,13 @@ footer p {
 
 /* Order Online Page */
 
-script {
-    margin: 0 auto;
-}
-
 .order-online {
+    margin-top: 15%;
     margin-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.order {
+    margin: 0 auto;
 }
