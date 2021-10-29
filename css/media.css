@@ -4,7 +4,7 @@
     }
     
     .container {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         background-color: rgba(0, 0, 0, 0.7);
     }
@@ -18,7 +18,7 @@
         
     }
     header img {
-        width: 3rem;
+        width: 4rem;
     }
     nav {
         height: 7rem;
@@ -30,6 +30,7 @@
     nav a {
         display: block;
         margin: 1px 0;
+        font-size: 150%;
     }
     main {
         padding-top: 20px;
