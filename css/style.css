@@ -208,3 +208,29 @@ input[type="submit"]:hover {
     background-color: #ff9101;
     transition-duration: 0.7s;
 }
+ /* Contact Page  */
+
+ .social a {
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .social a i {
+    font-size: 250%;
+    margin: 20px;
+    margin-top: 0;
+    transition: all 0.4s ease-out;
+}
+.fa-facebook-square:hover {
+    color: #4267B2;
+}
+
+.fa-instagram-square:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-github-square:hover {
+    color: #333;
+}
