@@ -29,6 +29,34 @@
         <main class="order-online">
             <h1>ORDER ONLINE</h1>
             
+            <form action="" method="post">
+
+                <div class="inputwrap">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+
+                <div class="inputwrap">
+                    <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+                </div>
+
+                <div class="wrapper">
+                    <div class="inputwrap">
+                        <label for="date">When Are You Planning To Come?</label>
+                        <input type="datetime-local" name="date" id="date">
+                    </div>
+    
+                    <div class="inputwrap">
+                        <label for="people">How Many Guests Should We Expect?</label>
+                        <input type="number" name="people" id="people">
+                    </div>
+                </div>
+
+                <div class="inputwrap">
+                    <textarea name="message" id="message" cols="100" rows="5" placeholder="Let us know what you think"></textarea>
+                </div>
+
+                <input type="submit" value="Order A Table">
+            </form>
         </main>
 
         <footer>

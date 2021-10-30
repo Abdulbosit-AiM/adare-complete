@@ -161,12 +161,50 @@ footer p {
 /* Order Online Page */
 
 .order-online {
-    margin-top: 15%;
-    margin-bottom: 250px;
+    margin-top: 10%;
+    margin-bottom: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .order {
     margin: 0 auto;
+}
+
+
+form {
+    margin: 40px 0px;
+}
+.inputwrap {
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=tel], textarea {
+    padding: 12px 20px; 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+input[type=datetime-local], input[type=number] {
+    padding: 12px 20px; 
+    width: calc(50% - 40px);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    padding: 15px 32px;
+    font-size: 150%;
+    background-color: #2f3035;
+    color: #fff;
+    border-radius: 20px;
+}
+input[type="submit"]:hover {
+    background-color: #ff9101;
+    transition-duration: 0.7s;
 }
