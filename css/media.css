@@ -13,16 +13,20 @@
         height: 3rem;
         display: flex;
         align-items: center;
-        justify-content: center;
-       
-        
+        justify-content: space-between;
+        padding: 5%; 
+    }
+    header input {
+        display: block;
     }
     header img {
         width: 4rem;
+        text-align: left;
     }
+    
     nav {
+        display: none;
         height: 10rem;
-        display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0.5rem 0;
@@ -31,6 +35,10 @@
         display: block;
         margin: 1px 0;
         font-size: 120%;
+    }
+    #burger-menu:checked ~ nav {
+        /* display: flex; */
+        background-color: blue;
     }
     main {
         padding-top: 20px;

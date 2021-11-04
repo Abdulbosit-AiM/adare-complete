@@ -24,7 +24,9 @@ header {
     height: 118px;
     text-align: center;
 }
-
+header input {
+    display: none;
+}
 nav {
     height: 40px;
     background-color: rgba(0, 0, 0, 0.338);
