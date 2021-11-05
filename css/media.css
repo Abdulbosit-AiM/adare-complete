@@ -9,37 +9,92 @@
         background-color: rgba(0, 0, 0, 0.7);
     }
     header {
-        margin-top: -10px;
-        height: 3rem;
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        padding: 5%; 
+        align-items: center;
     }
-    header input {
-        display: block;
+    header img{
+        width: 20%;
+
     }
-    header img {
-        width: 4rem;
-        text-align: left;
+    nav {
+        background-color: #e74707;
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        border-right: 2px solid;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: 0.3s;
+    }
+
+    nav a {
+        color: white;
+        padding: 20px 0px 10px 20px;
+    }
+
+    nav a:hover {
+        background-color: rgba(0, 0, 0, 0.727);
+        color: #e74707;
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    label .one {
+        height: 8px;
+        width: 40px;
+        position: fixed;
+        top: 20px;
+        right: 50px;
+        border: 2px solid tomato;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
     }
     
-    nav {
-        display: none;
-        height: 10rem;
-        flex-direction: column;
-        align-items: center;
-        padding: 0.5rem 0;
+    label .two {
+        height: 8px;
+        width: 40px;
+        position: fixed;
+        top: 30px;
+        right: 50px;
+        border: 2px solid tomato;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
     }
-    nav a {
-        display: block;
-        margin: 1px 0;
-        font-size: 120%;
+    
+    label .three {
+        height: 8px;
+        width: 40px;
+        position: fixed;
+        top: 40px;
+        right: 50px;
+        border: 2px solid tomato;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
     }
+    
     #burger-menu:checked ~ nav {
-        /* display: flex; */
-        background-color: blue;
+        transform: scale(1);
     }
+    
+    #burger-menu:checked ~ label > .one {
+        transform: rotateZ(45deg) scaleX(0.5) translateX(15px);
+    }
+    #burger-menu:checked ~ label > .two {
+        transform: translate(-7px, 0);
+        background-color: #000;
+        z-index: 1;
+    }
+    #burger-menu:checked ~ label > .three {
+        transform: rotateZ(-45deg) scaleX(0.5) translate(12px, 0);
+    }
+
     main {
         padding-top: 20px;
         height: 20rem;
