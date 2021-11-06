@@ -17,7 +17,7 @@
     header img{
         width: 20%;
         margin-left: 10%;
-        margin-top: -25%;
+        margin-top: -20%;
 
     }
     nav {
@@ -51,7 +51,7 @@
         position: fixed;
         top: 20px;
         right: 50px;
-        border: 2px solid tomato;
+        border: 2px solid #fff;
         border-radius: 10px;
         cursor: pointer;
         transition: 0.3s;
@@ -63,7 +63,7 @@
         position: fixed;
         top: 30px;
         right: 50px;
-        border: 2px solid tomato;
+        border: 2px solid #fff;
         border-radius: 10px;
         cursor: pointer;
         transition: 0.3s;
@@ -75,7 +75,7 @@
         position: fixed;
         top: 40px;
         right: 50px;
-        border: 2px solid tomato;
+        border: 2px solid #fff;
         border-radius: 10px;
         cursor: pointer;
         transition: 0.3s;
