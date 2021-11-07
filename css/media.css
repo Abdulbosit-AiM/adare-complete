@@ -10,91 +10,19 @@
     }
     header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        position: fixed;
     }
     header img{
-        width: 20%;
-        margin-left: 10%;
-        margin-top: -20%;
-
+        width: 40%;
+        margin: 0 auto;
     }
+    /* here I will put responsive navbar styles */
+
     nav {
-        background-color: #e74707;
-        height: 100%;
-        width: 250px;
-        top: 0;
-        left: 0;
-        border-right: 2px solid;
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: 0.3s;
-    }
-
-    nav a {
-        color: white;
-        padding: 20px 0px 10px 20px;
-    }
-
-    nav a:hover {
-        background-color: rgba(0, 0, 0, 0.727);
-        color: #e74707;
-    }
-    input[type="checkbox"] {
+        display: flex;
+        flex-direction: column;
         display: none;
-    }
-
-    label .one {
-        height: 8px;
-        width: 40px;
-        position: fixed;
-        top: 20px;
-        right: 50px;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    
-    label .two {
-        height: 8px;
-        width: 40px;
-        position: fixed;
-        top: 30px;
-        right: 50px;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    
-    label .three {
-        height: 8px;
-        width: 40px;
-        position: fixed;
-        top: 40px;
-        right: 50px;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    
-    #burger-menu:checked ~ nav {
-        transform: scale(1);
-    }
-    
-    #burger-menu:checked ~ label > .one {
-        transform: rotateZ(45deg) scaleX(0.5) translateX(15px);
-    }
-    #burger-menu:checked ~ label > .two {
-        transform: translate(-7px, 0);
-        background-color: #000;
-        z-index: 1;
-    }
-    #burger-menu:checked ~ label > .three {
-        transform: rotateZ(-45deg) scaleX(0.5) translate(12px, 0);
     }
 
     main {
