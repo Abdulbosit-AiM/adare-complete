@@ -214,11 +214,11 @@ input[type="submit"]:hover {
 }
  /* Contact Page  */
 
- .social a {
+.social a {
     text-decoration: none;
     cursor: pointer;
 }
- .social a i {
+.social .fab {
     font-size: 250%;
     margin: 20px;
     margin-top: 0;
