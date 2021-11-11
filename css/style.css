@@ -238,3 +238,10 @@ input[type="submit"]:hover {
 .fa-github-square:hover {
     color: #333;
 }
+
+/* catering page */
+#demo {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
