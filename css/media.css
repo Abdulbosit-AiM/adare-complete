@@ -1,6 +1,8 @@
 @media only screen and (max-width: 620px){
     body {
-        background-image: url(../images/background-mobile-restaurant-lg.jpg);  
+        background-image: url(../images/background-mobile-restaurant-lg.jpg); 
+        padding-top: 0;
+        margin-top: 0;
     }
     
     .container {
@@ -9,94 +11,33 @@
         background-color: rgba(0, 0, 0, 0.7);
     }
     header {
+        height: 200px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        /* align-items: center; */
         position: fixed;
     }
     header img{
-        width: 20%;
-        margin-left: 10%;
-        margin-top: -20%;
-
+        width: 4rem;
+        height: 2.5rem;
+        margin: 1rem;
     }
     nav {
-        background-color: #e74707;
-        height: 100%;
-        width: 250px;
-        top: 0;
-        left: 0;
-        border-right: 2px solid;
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: 0.3s;
-    }
-
-    nav a {
-        color: white;
-        padding: 20px 0px 10px 20px;
-    }
-
-    nav a:hover {
-        background-color: rgba(0, 0, 0, 0.727);
-        color: #e74707;
-    }
-    input[type="checkbox"] {
         display: none;
     }
 
-    label .one {
-        height: 8px;
-        width: 40px;
-        position: fixed;
-        top: 20px;
-        right: 50px;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.3s;
+    /* Burger Menu */
+    .mob-wrapper {
+        display: block;
+        position: absolute;
+        top: 8%;
+        left: 400%;
     }
-    
-    label .two {
-        height: 8px;
-        width: 40px;
-        position: fixed;
-        top: 30px;
-        right: 50px;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    
-    label .three {
-        height: 8px;
-        width: 40px;
-        position: fixed;
-        top: 40px;
-        right: 50px;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    
-    #burger-menu:checked ~ nav {
-        transform: scale(1);
-    }
-    
-    #burger-menu:checked ~ label > .one {
-        transform: rotateZ(45deg) scaleX(0.5) translateX(15px);
-    }
-    #burger-menu:checked ~ label > .two {
-        transform: translate(-7px, 0);
-        background-color: #000;
-        z-index: 1;
-    }
-    #burger-menu:checked ~ label > .three {
-        transform: rotateZ(-45deg) scaleX(0.5) translate(12px, 0);
+    .mob-wrapper img {
+        width: 2.5rem;
     }
 
+    /* Main */
     main {
         padding-top: 100px;
         height: 20rem;
